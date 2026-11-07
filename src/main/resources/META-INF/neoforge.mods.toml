@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "goblin_boss"
+version = "1.0.0"
+displayName = "Goblin Boss"
+authors = "Amonde (model, animations, boss design)"
+description = '''
+Goblin Boss - 2 phase boss with armor break + frenzy mode.
+Ported from the MythicMobs / ModelEngine pack by Amonde to NeoForge 1.21.1 (GeckoLib).
+'''
+
+[[dependencies.goblin_boss]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.goblin_boss]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.goblin_boss]]
+modId = "geckolib"
+type = "required"
+versionRange = "[4.7,)"
+ordering = "AFTER"
+side = "BOTH"
